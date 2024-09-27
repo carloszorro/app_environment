@@ -4,6 +4,8 @@ import plotly_express as px
 
 vehicle_data = pd.read_csv('vehicles_us.csv')
 
+header = st.header('Vehículos en Estados Unidos')
+
 build_hist = st.checkbox('Construir histograma')  # crear un botón
 
 if build_hist:  # al hacer clic en el botón
